@@ -1,0 +1,26 @@
+{
+	"name": "jochentimmermans/laravel-location",
+	"description": "A location package for Laravel",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jochen Timmermans",
+			"email": "jochentimmermans@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"JochenTimmermans\\LaravelLocation\\LaravelLocationServiceProvider"
+			]
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"JochenTimmermans\\LaravelLocation\\": "src/"
+		}
+	}
+}
